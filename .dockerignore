@@ -1,0 +1,8 @@
+bin/xray.exe
+bin/*.dat
+runtime/
+test/
+node_modules/
+.git
+*.png
+temp_*.txt

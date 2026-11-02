@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: xray-node-ws
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: UUID
+        generateValue: true
+      - key: WSPATH
+        value: /ws
+      - key: NODE_ENV
+        value: production

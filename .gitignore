@@ -1,0 +1,9 @@
+node_modules/
+bin/
+runtime/
+test/
+*.log
+__pycache__/
+*.png
+deploy.zip
+temp_*

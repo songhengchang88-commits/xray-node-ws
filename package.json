@@ -1,0 +1,15 @@
+{
+  "name": "xray-node-ws",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VLESS over WebSocket on a Node.js PaaS, with Xray-core",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "node scripts/install-xray.js",
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "adm-zip": "^0.5.16"
+  }
+}
